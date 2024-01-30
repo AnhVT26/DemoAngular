@@ -1,0 +1,23 @@
+<h1>Trang chủ</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID:</th>
+            <th>Tên phòng</th>
+            <th>Loại</th>
+            <th>Số lượng</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="p in dsPhong">
+            <td>{{p.id}}</td>
+            <td>{{p.ten}}</td>
+            <td>{{p.loai}}</td>
+            <td>{{p.soLuong}}</td>
+            <td>
+                <a href="#!dat-phong/{{p.id}}" class="btn btn-primary">Đặt phòng</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

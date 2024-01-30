@@ -1,0 +1,30 @@
+<h1>Sửa phòng</h1>
+
+<form action="">
+    <div class="mt-3">
+        <label for="">ID:</label>
+        <input type="text" class="form-control" ng-model="phong.id" readonly>
+    </div>
+    <div class="mt-3">
+        <label for="">Tên:</label>
+        <input type="text" class="form-control" ng-model="phong.ten">
+    </div>
+    <div class="mt-3">
+        <label for="">Loại:</label>
+        <select name="" id="" class="form-control" ng-model="phong.loai">
+            <option value="" hidden selected>-- Lựa chọn loại phòng --</option>
+            <option value="phòng đơn">phòng đơn</option>
+            <option value="phòng đôi">phòng đôi</option>
+        </select>
+    </div>
+    <div class="mt-3">
+        <label for="">Số lượng:</label>
+        <input type="text" class="form-control" ng-model="phong.soLuong">
+    </div>
+</form>
+
+
+<button class="btn btn-primary mt-3" ng-click="onClickUpdate()">Lưu</button>
+<div ng-if="formInvalid" style="color: red;">
+    {{formInvalidMessage}}
+</div>

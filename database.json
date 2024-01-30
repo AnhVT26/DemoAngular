@@ -1,0 +1,62 @@
+{
+  "Phong": [
+    {
+      "id": "1",
+      "ten": "phòng đơn 1",
+      "loai": "phòng đơn",
+      "soLuong": 10
+    },
+    {
+      "id": "2",
+      "ten": "phòng đơn 2",
+      "loai": "phòng đơn",
+      "soLuong": 10
+    },
+    {
+      "id": "3",
+      "ten": "phòng đôi 1",
+      "loai": "phòng đôi",
+      "soLuong": 10
+    },
+    {
+      "id": "4",
+      "ten": "phòng đôi 2",
+      "loai": "phòng đôi",
+      "soLuong": 10
+    }
+  ],
+  "DatPhong": [
+    {
+      "id": "1",
+      "tenKhach": "Vũ Tuấn A",
+      "sodienthoai": "0968458834",
+      "ngayDat": "2024-1-30",
+      "idPhong": 4,
+      "soLuong": 2
+    },
+    {
+      "id": "2",
+      "tenKhach": "Vũ Tuấn B",
+      "sodienthoai": "0968458834",
+      "ngayDat": "2024-1-30",
+      "idPhong": 3,
+      "soLuong": 2
+    },
+    {
+      "id": "3",
+      "tenKhach": "Vũ Tuấn C",
+      "sodienthoai": "0968458834",
+      "ngayDat": "2024-1-30",
+      "idPhong": 2,
+      "soLuong": 2
+    },
+    {
+      "id": "4",
+      "tenKhach": "Vũ Tuấn D",
+      "sodienthoai": "0968458834",
+      "ngayDat": "2024-1-30",
+      "idPhong": 1,
+      "soLuong": 2
+    }
+  ]
+}

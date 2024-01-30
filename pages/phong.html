@@ -1,0 +1,25 @@
+<h1>Quản lý phòng</h1>
+<a href="#!them-phong" class="btn btn-primary">Thêm phòng</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID:</th>
+            <th>Tên phòng</th>
+            <th>Loại</th>
+            <th>Số lượng</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="p in dsPhong">
+            <td>{{p.id}}</td>
+            <td>{{p.ten}}</td>
+            <td>{{p.loai}}</td>
+            <td>{{p.soLuong}}</td>
+            <td>
+                <a href="#!sua-phong/{{p.id}}" class="btn btn-warning">Sửa</a>
+                <button ng-click="confirmDelete(p.id)" class="btn btn-danger">Xóa</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
